@@ -1,25 +1,18 @@
-#include<iostream>
-#include<string>
+#include "employee.h"
 
+Employee::Employee(std::string n, int id, double s)
+    : name(n), id(id), salary(s) {}
 
-class Employee {
-    protected:
-        std::string name;
-        int id;
-        double salary;
+double Employee::calculateSalary() {
+    return this->salary;
+}
 
-    public:
-        Employee(std::string n, int id, double s) : name(n), id(id), salary(s) {}
+void Employee::display() {
+    std::cout << "Name: " << this->name
+              << ", Id: " << this->id
+              << ", Salary: " << this->salary << std::endl;
+}
 
-        virtual double calculateSalary() {
-            return this->salary;
-        }
-
-        virtual void display() {
-            std::cout<< "Name: " << this->name << ", Id: " << this->id << ", Salary: " << this->salary << std::endl;
-        }
-
-        virtual ~Employee() {
-            std::cout << "bro go to hell!" << std::endl;
-        }
-};
+Employee::~Employee() {
+    std::cout << "bro go to hell!" << std::endl;
+}
