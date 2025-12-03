@@ -1,0 +1,8 @@
+This is the first log message.
+This is the second log message.
+This is the first log message.
+This is the second log message.
+This is the third log message from logger3.
+This is the first log message.
+This is the second log message.
+This is the third log message from logger3.
