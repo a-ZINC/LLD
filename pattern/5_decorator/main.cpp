@@ -8,5 +8,7 @@ int main() {
     cout << "Cost: " << myCoffee->cost() << ", Description: " << myCoffee->description() << std::endl;
     myCoffee = new Milk(myCoffee);
     cout << "Cost: " << myCoffee->cost() << ", Description: " << myCoffee->description() << std::endl;
+    myCoffee = new Milk(myCoffee);
+    cout << "Cost: " << myCoffee->cost() << ", Description: " << myCoffee->description() << std::endl;
     delete myCoffee;
 }
