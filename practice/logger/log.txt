@@ -1,0 +1,12 @@
+Fri Dec  5 21:39:17 2025[INFO] This is an info message.
+Fri Dec  5 21:39:17 2025[WARNING] This is a warning message.
+Fri Dec  5 21:39:17 2025[ERROR] This is an error message.
+Fri Dec  5 21:39:17 2025[DEBUG] This is a debug message.
+Fri Dec  5 21:42:38 2025[INFO] This is an info message.
+Fri Dec  5 21:42:38 2025[WARNING] This is a warning message.
+Fri Dec  5 21:42:38 2025[ERROR] This is an error message.
+Fri Dec  5 21:42:38 2025[DEBUG] This is a debug message.
+Fri Dec  5 21:44:14 2025[INFO] This is an info message.
+Fri Dec  5 21:44:14 2025[WARNING] This is a warning message.
+Fri Dec  5 21:44:14 2025[ERROR] This is an error message.
+Fri Dec  5 21:44:14 2025[DEBUG] This is a debug message.
