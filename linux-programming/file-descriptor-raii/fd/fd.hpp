@@ -21,7 +21,7 @@ class FileDescriptor {
         FileDescriptor& operator=(FileDescriptor&& other) noexcept;
 
         ssize_t read_(void* buf, ssize_t size);
-        ssize_t write_(void* buf, ssize_t size);
+        ssize_t write_(const void* buf, ssize_t size);
 };
 
 #endif

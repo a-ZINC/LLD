@@ -42,7 +42,7 @@ ssize_t FileDescriptor::read_(void* buff, ssize_t size) {
     return result;
 }
 
-ssize_t FileDescriptor::write_(void* buff, ssize_t size) {
+ssize_t FileDescriptor::write_(const void* buff, ssize_t size) {
     ssize_t result = write(this->fd, buff, size);
     if (result < 0) {
         throw std::system_error(errno, std::system_category(), "write failed");
